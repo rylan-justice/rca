@@ -4,4 +4,4 @@
 
 ## Output
 - **Plaintext** Example.
-- **Ciphertext**
+- **Ciphertext** ዝሽνጤጪሠዝሽνቂተሕጭጸኅኡዙሹዩሐላዙሹፊዡኀዙሹΔΩዉሕጭኝጳዒዙሹዋዖራ
