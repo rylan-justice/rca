@@ -1,7 +1,7 @@
-## Encryption Example
+## Encryption
 - **Plaintext:** Example.
 - **Ciphertext:** ዝሽνጤጪሠዝሽνቂተሕጭጸኅኡዙሹዩሐላዙሹፊዡኀዙሹΔΩዉሕጭኝጳዒዙሹዋዖራ
 
-## Decryption Example
+## Decryption
 - **Ciphertext:** ዝሽνጤጪሠዝሽνቂተሕጭጸኅኡዙሹዩሐላዙሹፊዡኀዙሹΔΩዉሕጭኝጳዒዙሹዋዖራ
 - **Plaintext:** Example.
