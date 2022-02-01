@@ -1,3 +1,3 @@
 ## Commands
-- **1** Creates a private key.
-- **2** Encrypt or Decrypt a message.
+- **1** Creates a key.
+- **2** Encrypt or Decrypt plaintext.
