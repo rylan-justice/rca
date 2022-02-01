@@ -1,5 +1,5 @@
 ---
-name: Bug Report
+name: Bug
 about: "..."
 title: ''
 labels: ''
@@ -17,4 +17,4 @@ If applicable, add screenshots to help explain your problem.
  - OS: Linux (Distribution)
 
 **Additional Context**
-Add any other context about the problem here.
+Add context about the problem here.
