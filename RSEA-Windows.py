@@ -6,6 +6,6 @@ def F():from o import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,
 def I():
  i=_i('1 Create Key\n2 Encrypt/Decrypt\n\n')
  if i=='1':K()
- if i=='2':ct(v1)+F()
- if i!='1''2':ct(v1)+I()
+ if i=='2':ct(v1),F()
+ if i!='1''2':ct(v1),I()
 I()
