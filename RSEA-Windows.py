@@ -7,5 +7,5 @@ def I():
  i=_i('1 Create Key\n2 Encrypt/Decrypt\n\n')
  if i=='1':K()
  if i=='2':ct(v1),F()
- if i!='1''2':ct(v1),I()
+ if i!='12':ct(v1),I()
 I()
