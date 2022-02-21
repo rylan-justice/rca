@@ -1,7 +1,6 @@
 from secrets import choice
 from random import SystemRandom
 
-
 def key(symbols='𒀀𒀁𒀂𒀃𒀄𒀅𒀆𒀇𒀈𒀉𒀊𒀋𒀌𒀍𒀎𒀏𒀐𒀑𒀒𒀓𒀔𒀕𒀖𒀗𒀘𒀙𒀚𒀛𒀜𒀝𒀞𒀟𒀠𒀡𒀢𒀣𒀤𒀥𒀦𒀧𒀨𒀩𒀪𒀫𒀬𒀭𒀮𒀯𒀰𒀱𒀲𒀳𒀴𒀵𒀶𒀷𒀸𒀹𒀺𒀻𒀼𒀽𒀾𒀿𒁀𒁁𒁂𒁃𒁄𒁅𒁆𒁇𒁈𒁉𒁊𒁋𒁌𒁍𒁎𒁏𒁐𒁑𒁒𒁓𒁔𒁕𒁖𒁗𒁘𒁙𒁚𒁛𒁜𒁝𒁞𒁟𒁠𒁡𒁢𒁣𒁤𒁥𒁦𒁧𒁨𒁩𒁪𒁫𒁬𒁭𒁮𒁯𒁰𒁱𒁲𒁳𒁴𒁵𒁶𒁷𒁸𒁹𒁺𒁻𒁼𒁽𒁾𒁿𒂀𒂁𒂂𒂃𒂄𒂅𒂆𒂇𒂈𒂉𒂊𒂋𒂌𒂍𒂎𒂏𒂐𒂑𒂒𒂓𒂔𒂕𒂖𒂗𒂘𒂙𒂚𒂛𒂜𒂝𒂞𒂟𒂠𒂡𒂢𒂣𒂤𒂥𒂦𒂧𒂨𒂩𒂪𒂫𒂬𒂭𒂮𒂯𒂰𒂱𒂲𒂳𒂴𒂵𒂶𒂷𒂸𒂹𒂺𒂻𒂼𒂽𒂾𒂿𒃀𒃁𒃂𒃃𒃄𒃅𒃆𒃇', start=2, stop=4):
     a = ''.join(choice(symbols)
                 for i in range(SystemRandom().randint(start, stop)))
@@ -236,13 +235,10 @@ def key(symbols='𒀀𒀁𒀂𒀃𒀄𒀅𒀆𒀇𒀈𒀉𒀊𒀋𒀌𒀍𒀎�
     with open('key.py', 'w')as file:
         file.write("a='"+a+"';b='"+b+"';c='"+c+"';d='"+d+"';e='"+e+"';f='"+f+"';g='"+g+"';h='"+h+"';i='"+i+"';j='"+j+"';k='"+k+"';l='"+l+"';m='"+m+"';n='"+n+"';o='"+o+"';p='"+p+"';q='"+q+"';r='"+r+"';s='"+s+"';t='"+t+"';u='"+u+"';v='"+v+"';w='"+w+"';x='"+x+"';y='"+y+"';z='"+z+"';A='"+A+"';B='"+B+"';C='"+C+"';D='"+D+"';E='"+E+"';F='"+F+"';G='"+G+"';H='"+H+"';I='"+I+"';J='"+J+"';K='"+K+"';L='"+L+"';M='"+M+"';N='"+N+"';O='"+O+"';P='"+P+"';Q='"+Q+"';R='"+R+"';S='"+S+"';T='"+T+"';U='"+U+"';V='"+V+"';W='"+W+"';X='"+X+"';Y='"+Y+"';Z='"+Z+"';N1='"+N1+"';N2='"+N2+"';N3='"+N3+"';N4='"+N4+"';N5='"+N5+"';N6='"+N6+"';N7='"+N7+"';N8='"+N8+"';N9='"+N9+"';N0='"+N0+"';S1='"+S1+"';S2='"+S2+"';S3='"+S3+"';S4='"+S4+"';S5='"+S5+"';S6='"+S6+"';S7='"+S7+"';S8='"+S8+"';S9='"+S9+"';S10='"+S10+"';S11='"+S11+"';S12='"+S12+"';S13='"+S13+"';S14='"+S14+"';S15='"+S15+"';S16='"+S16+"';S17='"+S17+"';S18='"+S18+"';S19='"+S19+"';S20='"+S20+"';S21='"+S21+"';S22='"+S22+"';S23='"+S23+"';S24='"+S24+"';S25='"+S25+"';S26='"+S26+"';S27='"+S27+"';S28='"+S28+"';S29='"+S29+"';S30='"+S30+"';S31='"+S31+"';S32='"+S32+"';S33='"+S33+"';R1='"+R1+"';R2='"+R2+"';R3='"+R3+"';R4='"+R4+"';R5='"+R5+"';R6='"+R6+"';R7='"+R7+"';R8='"+R8+"';R9='"+R9+"';R10='"+R10+"';R11='"+R11+"';R12='"+R12+"';R13='"+R13+"';R14='"+R14+"';R15='"+R15+"';R16='"+R16+"';R17='"+R17+"';R18='"+R18+"';R19='"+R19+"';R20='"+R20+"'")
 
-
 key()
 from key import*
-
 
 def encrypt(plaintext=''):
     print(plaintext.replace('a', a).replace('b', b).replace('c', c).replace('d', d).replace('e', e).replace('f', f).replace('g', g).replace('h', h).replace('i', i).replace('j', j).replace('k', k).replace('l', l).replace('m', m).replace('n', n).replace('o', o).replace('p', p).replace('q', q).replace('r', r).replace('s', s).replace('t', t).replace('u', u).replace('v', v).replace('w', w).replace('x', x).replace('y', y).replace('z', z).replace('A', A).replace('B', B).replace('C', C).replace('D', D).replace('E', E).replace('F', F).replace('G', G).replace('H', H).replace('I', I).replace('J', J).replace('K', K).replace('L', L).replace('M', M).replace('N', N).replace('O', O).replace('P', P).replace('Q', Q).replace('R', R).replace('S', S).replace('T', T).replace('U', U).replace('V', V).replace('W', W).replace('X', X).replace('Y', Y).replace('Z', Z).replace('1', N1).replace('2', N2).replace('3', N3).replace('4', N4).replace('5', N5).replace('6', N6).replace('7', N7).replace('8', N8).replace('9', N9).replace('0', N0).replace('`', S1).replace('~', S2).replace('!', S3).replace('@', S4).replace('#', S5).replace('$', S6).replace('%', S7).replace('^', S8).replace('&', S9).replace('*', S10).replace('(', S11).replace(')', S12).replace('-', S13).replace('_', S14).replace('=', S15).replace('+', S16).replace('[', S17).replace('{', S18).replace(']', S19).replace('}', S20).replace('\\', S21).replace('|', S22).replace(';', S23).replace(':', S24).replace("'", S25).replace('"', S26).replace(',', S27).replace('<', S28).replace('.', S29).replace('>', S30).replace('/', S31).replace('?', S32).replace(' ', S33))
 
-
-def decrypt(ciphertext=''): input()
+#def decrypt(ciphertext=''):
