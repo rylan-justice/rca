@@ -9,4 +9,4 @@ encrypt()   # encrypt(plaintext='') or encrypt(input()) or encrypt(variable)
 ## Coming Soon
 - **Junk data.**
 - **Decryption function.**
-- **Categorization or encryption types.**
+- **Categorization of encryption types.**
