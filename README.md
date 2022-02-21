@@ -8,5 +8,5 @@ encrypt()   # encrypt(plaintext='') or encrypt(input()) or encrypt({variable})
 ```
 ## Coming Soon
 - **Junk data.**
-- **Decryption function**
+- **Decryption function.**
 - **Categorization or encryption types.**
