@@ -3,8 +3,8 @@ An encryption algorithm that safeguards your data.
 ## Usage
 ```python
 from REA import key, encrypt
-key()   # key(symbols='',start=2,stop=4)
-encrypt()   # encrypt(plaintext='') / encrypt(input()) / encrypt(variable)
+key() # key(symbols='',start=2,stop=4)
+encrypt() # encrypt(plaintext='') / encrypt(input()) / encrypt(variable)
 ```
 ## In Development
 - **Junk data.**
