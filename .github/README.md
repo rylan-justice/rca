@@ -4,9 +4,9 @@ REA is a cryptographic algorithm that safeguards your information.
 ```python
 from REA import*  #  Imports all functions.
 
-key() # Creates a private key.  -  Paramaters: symbols='', start=N, stop=N
+key() # Creates a private key.  -  Parameters: symbols='', start=N, stop=N
 
-encrypt() # Encrypts plaintext.  -  Paramater: plaintext=''
+encrypt() # Encrypts plaintext.  -  Parameter: plaintext=''
 
-decrypt() # Decrypts ciphertext.  -  Paramater: ciphertext=''
+decrypt() # Decrypts ciphertext.  -  Parameter: ciphertext=''
 ```
