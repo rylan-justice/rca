@@ -1,8 +1,8 @@
-## REA
-REA is a cryptographic algorithm that safeguards your information.
+## RCA
+RCA is a cryptographic algorithm that safeguards your information.
 ### Usage
 ```python
-from REA import* # Imports all functions.
+from RCA import* # Imports all functions.
 
 key() # Parameters: symbols='', start=N, stop=N
 
