@@ -2,9 +2,9 @@
 ```python
 from RCA import* # Imports all functions.
 
-key() # Parameters: symbols='', start=N, stop=N
+key() # Parameters: symbols, start=N, stop=N
 
-encrypt() # Parameter: plaintext=''
+encrypt() # Parameter: plaintext
 
-decrypt() # Parameter: ciphertext=''
+decrypt() # Parameter: ciphertext
 ```
