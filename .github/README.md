@@ -1,5 +1,3 @@
-## RCA
-RCA is a cryptographic algorithm that safeguards your information.
 ### Usage
 ```python
 from RCA import* # Imports all functions.
