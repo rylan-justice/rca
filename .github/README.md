@@ -1,10 +1,10 @@
-### Usage
+### Example
 ```python
-from RCA import* # Imports all functions.
+from RCA import*
 
-key() # Parameters: symbols, start=2, stop=4
+key()
 
-encrypt() # Parameter: plaintext
-
-decrypt() # Parameter: ciphertext
+while 1:
+ Symmetric().encrypt(input('Plaintext: '))
+ Symmetric().decrypt(input('Ciphertext: '))
 ```
