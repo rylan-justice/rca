@@ -1,10 +1,4 @@
-### Example
-```python
-from RCA import*
-
-key()
-
-while 1:
- Symmetric().encrypt(input('Plaintext: '))
- Symmetric().decrypt(input('Ciphertext: ')),input()
-```
+|Classes|Functions|Parameters|
+|:---|:---|:---|
+|**None**|`key`|`symbols`, `start`, `stop`|
+|**Symmetric**|`encrypt`, `decrypt`|`plaintext`, `ciphertext`|
