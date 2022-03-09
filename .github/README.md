@@ -5,5 +5,5 @@
 |Symmetric|`encrypt` `decrypt`|`plaintext` `ciphertext`|
 ### Visualization
 ```mermaid
-graph LR;Plaintext-->V
+graph LR;Plaintext-->Salt--->Ciphertext--->Salt
 ```
