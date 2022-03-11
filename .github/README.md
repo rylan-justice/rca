@@ -1,8 +1,8 @@
 ### Usage
 |Classes|Functions|Parameters|
 |:-:|:-:|:-:|
-|None|`key`|`symbols` `start` `stop`|
-|Symmetric|`encrypt` `decrypt`|`plaintext` `ciphertext`|
+||`key`|`symbols` `start` `stop`|
+|`Symmetric`|`encrypt` `decrypt`|`plaintext` `ciphertext`|
 ### Visualization
 ```mermaid
 flowchart LR;1(Symmetric)---2(Encryption)---3(Key)-->4(Plaintext)-->5(Ciphertext);1(Symmetric)---6(Decryption)---7(Key)-->8(Ciphertext)-->9(Plaintext)
