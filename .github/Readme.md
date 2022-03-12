@@ -1,4 +1,4 @@
-![](https://user-images.githubusercontent.com/98350503/157972039-98e9833d-8e00-4613-a582-d64240e9ca1a.png)
+![](https://user-images.githubusercontent.com/98350503/158003994-5b9cefd5-c818-4318-81c2-96c1921c30ac.png)
 ### Usage
 |Classes|Functions|Parameters|
 |:-:|:-:|:-:|
