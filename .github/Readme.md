@@ -3,7 +3,7 @@
 |Classes|Functions|Parameters|
 |:-:|:-:|:-:|
 ||`key`|`symbols` `start` `stop`|
-|`Symmetric`|`encrypt` `decrypt`|`plaintext` `ciphertext`|
+|`Symmetric`|`encrypt_string` `decrypt_string`|`plaintext` `ciphertext`|
 ### Visualization
 ```mermaid
 graph LR;1(Symmetric)---2(Encryption)---3(Key)-->4(Plaintext)-->5(Ciphertext);1(Symmetric)---6(Decryption)---7(Key)-->8(Ciphertext)-->9(Plaintext)
