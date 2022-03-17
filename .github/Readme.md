@@ -1,1 +1,0 @@
-![](https://user-images.githubusercontent.com/98350503/158039708-f71050fd-2f01-45d2-bce1-7bad350e3efc.png)
